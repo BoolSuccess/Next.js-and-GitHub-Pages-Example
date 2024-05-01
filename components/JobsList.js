@@ -13,7 +13,7 @@ const smallLogo = () => <section className='text-white flex flex-row justify-cen
 
 
 
-export default function Job({description,requirements = [""], responsibilites = [""],title}) {
+export default function JobsList({jobs=[]}) {
 
   return (
     <main >
@@ -29,38 +29,33 @@ export default function Job({description,requirements = [""], responsibilites = 
       <div className=" max-w-4xl mx-10 my-4 px-10 py-4 md:mx-16 rounded bg-white border-[#696969] shadow-lg text-left">
 
         <div className="text-4xl my-2 font-semibold max-w-xl">
-          {title}
+          Jobs
         </div>
 
-        <div className="pt-4">
-          Job Title: <span className="font-semibold">{title}</span>
+
+        <div className="pt-2">
+         Why work with <span className="font-semibold">The Ratio?</span>
         </div>
 
         <div className="pt-2">
-          Job Type:  <span className="font-semibold">Contract (Paid in USDC)</span>
+         We have some of the best minds in crypto designing the next generation of Defi, leaning heavily on the broadest appealing types of applications.
+         By working with us, you'll be exposed to a new platform and find your work elevated in to the public light.
+         We are funded by independent angel investors, and happy to pay competitive rates.
+        </div>
+
+
+        <div className="pt-2">
+         Our work environment
         </div>
 
         <div className="pt-2">
-          Location: <span className="font-semibold">Remote</span>
+         We have a style of impromptu remote work that fits easily in to your lifestyle.
+         As an additional bonus, you will have the option of remaining anonymous and independent, free to persue what you wish during your time with us.
         </div>
 
+        <div className="text-xl pt-4 font-semibold #c2410c">Remote Openings:</div>
+          {jobs.map((resp,key)=> <a href={resp.slug} key={resp.slug}><div className="underline" key={resp.slug}>- {resp.title}</div></a>)}
 
-        <div className="max-w-xl pt-4">
-          {description}
-        </div>
-
-        <div className="text-xl pt-4 font-semibold">Responsibilities:</div>
-          {responsibilites.map((resp,key)=> <div key={key}>- {resp}</div>)}
-
-        <div className="text-xl mt-4 font-semibold">Requirements:</div>
-          {requirements.map((resp,key )=> <div key={key}>- {resp}</div>)}
-
-        <div className="pt-8">
-          To Apply:
-
-          Please provide your availability, cv, and details about your background, experience, how you like to work, 
-          and what you would like to work on. Apply with a direct message on Telegram to <a className="underline text-blue-500" href="https://t.me/witecrypto" target="_blank">@witecrypto</a>
-        </div>
 
       </div>
       <div className="pb-4">

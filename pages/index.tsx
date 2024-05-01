@@ -24,9 +24,16 @@ const Home: NextPage = () => {
             </div>
           </section>
 
+          
+          <div className='text-sm mb-2 text-[#696969] top-10 absolute text-center w-full text-orange-500	'>
+            <a href="/jobs">We are hiring &raquo;</a>
+          </div>
+
           <div className='text-sm mb-2 text-[#696969] bottom-0 absolute text-center w-full'>
             You have no idea whats coming.
           </div>
+
+
         </div>
 
       </main>
