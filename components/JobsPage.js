@@ -59,7 +59,7 @@ export default function Job({description,requirements = [""], responsibilites = 
           To Apply:
 
           Please provide your availability, cv, and details about your background, experience, how you like to work, 
-          and what you would like to work on. Apply with a direct message on Telegram to <a className="underline text-blue-500" href="https://t.me/witecrypto" target="_blank">@witecrypto</a>
+          and what you would like to work on. Apply by emailing your info to jobs @ (this domain) or apply with a direct message on Telegram to <a className="underline text-blue-500" href="https://t.me/witecrypto" target="_blank">@witecrypto</a>
         </div>
 
       </div>
