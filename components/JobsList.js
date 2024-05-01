@@ -38,9 +38,9 @@ export default function JobsList({jobs=[]}) {
         </div>
 
         <div className="pt-2">
-         We have some of the best minds in crypto designing the next generation of Defi, leaning heavily on the broadest appealing types of applications.
+         {`We have some of the best minds in crypto designing the next generation of Defi, leaning heavily on the broadest appealing types of applications.
          By working with us, you'll be exposed to a new platform and find your work elevated in to the public light.
-         We are funded by independent angel investors, and happy to pay competitive rates.
+         We are funded by independent angel investors, paying competitive rates.`}
         </div>
 
 
@@ -49,7 +49,7 @@ export default function JobsList({jobs=[]}) {
         </div>
 
         <div className="pt-2">
-         We have a style of impromptu remote work that fits easily in to your lifestyle.
+         We have a style of responsive and pro-actively planned remote work that fits easily in to your lifestyle.
          As an additional bonus, you will have the option of remaining anonymous and independent, free to persue what you wish during your time with us.
         </div>
 
