@@ -1,4 +1,4 @@
-import JobPage from "../../components/JobsPage";
+import JobPage from "../components/JobsPage";
 
 const responsibilites = [
   "Collaborate with the development team to design and implement a visually appealing and functional front-end for the DeFi application.",

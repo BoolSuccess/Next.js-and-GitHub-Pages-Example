@@ -1,4 +1,4 @@
-import JobPage from "../../components/JobsPage";
+import JobPage from "../components/JobsPage";
 
 const responsibilites = [
   "Collaborate with the development team to design and implement secure and efficient smart contracts for the DeFi application using Solidity.",
