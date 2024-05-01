@@ -16,10 +16,10 @@ const Home: NextPage = () => {
 
         <div className='h-screen w-full bg-[#f0f0f0]'>
           <section className='text-white    font-semibold flex flex-row absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-            <div className='text-4xl bg-[#FF9900] drop-shadow-sm rounded p-3 mx-1'>
+            <div className='text-4xl bg-[#FF9900] rounded-sm drop-shadow-sm  p-3 mx-1'>
               THE
             </div>
-            <div className='text-4xl rounded bg-[#3C3C3D] drop-shadow-sm p-3 '>
+            <div className='text-4xl  bg-[#3C3C3D]  rounded-sm drop-shadow-sm p-3 '>
               RATIO
             </div>
           </section>
