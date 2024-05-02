@@ -37,7 +37,7 @@ export default function Job({description,requirements = [""], responsibilites = 
         </div>
 
         <div className="pt-2">
-          Job Type:  <span className="font-semibold">Contract (Paid in Crypto)</span>
+          Job Type:  <span className="font-semibold">Contract (Paid in USDC)</span>
         </div>
 
         <div className="pt-2">
@@ -58,8 +58,8 @@ export default function Job({description,requirements = [""], responsibilites = 
         <div className="pt-8">
           To Apply:
 
-          Please provide your github link, cv, availability, along with details about your background, experience, how you like to work, 
-          and what you would like to work on. Apply with a direct message on Telegram to <a className="underline text-blue-500" href="https://t.me/witecrypto" target="_blank">@witecrypto</a>
+          Please provide your availability, cv, and details about your background, experience, how you like to work, 
+          and what you would like to work on. Apply by emailing your info to jobs @ (this domain) or apply with a direct message on Telegram to <a className="underline text-blue-500" href="https://t.me/witecrypto" target="_blank">@witecrypto</a>
         </div>
 
       </div>

@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from 'next/link'
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { prefix } from "../utils/prefix";
@@ -24,9 +25,16 @@ const Home: NextPage = () => {
             </div>
           </section>
 
+          
+          <div className='text-sm mb-2 text-[#696969] top-10 absolute text-center w-full text-orange-500	'>
+            <Link href="/jobs">We are hiring &raquo;</Link>
+          </div>
+
           <div className='text-sm mb-2 text-[#696969] bottom-0 absolute text-center w-full'>
             You have no idea whats coming.
           </div>
+
+
         </div>
 
       </main>
