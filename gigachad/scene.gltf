@@ -1,0 +1,257 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1260,
+      "max": [
+        13.497756004333496,
+        13.77877426147461,
+        0.06037241593003273
+      ],
+      "min": [
+        -11.250032424926758,
+        -10.198175430297852,
+        -30.23117446899414
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 15120,
+      "componentType": 5126,
+      "count": 1260,
+      "max": [
+        0.9609997868537903,
+        0.9985631704330444,
+        0.9924591779708862
+      ],
+      "min": [
+        -0.9981444478034973,
+        -0.9963396191596985,
+        -0.988084077835083
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1260,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1848,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "julioricardonuniez (https://sketchfab.com/julioricardonuniez)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/low-poly-gigachad-chadge-1f4bf3baa4014ce2957d189e27b87789",
+      "title": "low poly gigachad - Chadge"
+    },
+    "generator": "Sketchfab-14.87.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7392,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10080,
+      "byteOffset": 7392,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30240,
+      "byteOffset": 17472,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 47712,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_diffuse.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.905351996421814,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.2307313128860135e-16,
+        -1.905351996421814,
+        0.0,
+        0.0,
+        1.905351996421814,
+        4.2307313128860135e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "e3cc3189c2844ff2b2cf5df166fdbe71.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -5.088076155841339,
+        -5.0890321013696305,
+        -0.1432617404766908,
+        0.0,
+        -0.08422120341814891,
+        0.28665456850619053,
+        -7.19152511184062,
+        0.0,
+        5.090351842269683,
+        -5.082014904065084,
+        -0.26218337809043296,
+        0.0,
+        113.79444885253906,
+        108.14630889892578,
+        -4.5663299560546875,
+        1.0
+      ],
+      "name": "Plane"
+    },
+    {
+      "mesh": 0,
+      "name": "Plane_Material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
